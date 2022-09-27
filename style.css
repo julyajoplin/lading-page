@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300&display=swap');
+
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;  
+  font-size: 100%;
+}
+
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;    
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    font-family: 'Dosis';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+body{
+    grid-template-areas: 1fr 1fr 1fr;
+    grid-gap: 2px;
+    background-size: 100%;
+    margin: 2px;
+    background-color: rgb(226, 32, 161);
+    color: black;
+    font-family: 'Dosis';
+    font-size: 100%;
+    height: 100vh;
+    width: 100%;
+    padding: 25px;
+}
+
+section{
+    align-items: center;
+    padding: 10px;  
+}
+
+main .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    padding: 2rem 4rem;
+    row-gap: 20px;
+}
+
+.card1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1rem 2.0rem ;
+    border-radius: 0;
+    box-shadow: 20px 20px 50px -30px rgb(212, 55, 173);
+}
+
+
+
+.card2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1rem 2.0rem ;
+    border-radius: 0;
+    box-shadow: 20px 20px 50px -30px rgb(212, 55, 173);
+    row-gap: 20px;
+}
+
+
+
+.card3{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    background-color: aliceblue;
+    padding: 1rem 2.0rem ;
+    border-radius: 0;
+    box-shadow: 20px 20px 50px -30px rgb(212, 55, 173);
+}
+
+.topCard{
+    padding: 20px;
+    padding-top: 0 ;
+}
+
+.tittle{
+    color: rgb(3, 247, 56);
+}
+
+.conteudo-quarto{
+    gap: 10px;
+    text-align: right;
+}
+
+.conteudo-quinto{
+    gap: 0px;
+    text-align: left;
+    
+}
+
+.img class ".conteudo-quinto{
+    display: flex;
+    border-radius: 1px; 
+    align-items: right;
+} 
+
+img{
+    display: flex;
+    border-radius: 1px; 
+}
+
+footer{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        width: 100%;
+    }
+}
